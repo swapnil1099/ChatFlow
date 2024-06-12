@@ -1,0 +1,49 @@
+.dndflow {
+  display: flex;
+  height: 100vh;
+}
+
+.nodes-panel {
+  width: 200px;
+  background-color: #3487da; 
+  padding: 10px;
+  color: white;
+}
+
+.draggable-node {
+  padding: 10px;
+  background-color: #3498db;
+  border: 1px solid #2980b9; 
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: white; /* Text color */
+}
+
+.flow-container {
+  flex: 1;
+  position: relative;
+}
+
+.settings-panel {
+  width: 200px;
+  background-color: #27ae60; /* Green */
+  padding: 10px;
+  border-left: 1px solid #2ecc71; /* Darker green */
+  color: white; /* Text color */
+}
+
+button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #e74c3c; /* Red */
+  color: white; /* Text color */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
